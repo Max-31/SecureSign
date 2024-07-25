@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    color: white;
+    /* background: rgb(63, 63, 214); */
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+}
+
+.top{
+    font-size: 3em;
+    font-weight: 700;
+}
+
+.Heading button{
+    width: 130px;
+    height: 50px;
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 7px;
+    outline: none;
+    cursor: pointer;
+    font-size: 1.2em;
+    font-weight: 500;
+    margin-left: 20px;
+    color: white;
+}
+
+.Heading button:hover{
+    background: white;
+    color: black;
+    font-size: 1.5em;
+}
+
+.topnav a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+
+.topnav a:hover{
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('pic16.jpeg') no-repeat;
+    background-size: cover;
+    background-position: center;
+} 
+
+.whole{
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    height: 500px;
+    /* border-radius: 30px; */
+    /* border: 2px solid gainsboro; */
+}
+
+.container{
+    color: white;
+    width: 600px;
+    /* height: 60vh; */
+    height: 400px;
+    margin: 25px;
+    padding: 70px 70px;
+}
+
+.blank{
+    width: 500px;
+    height: 50vh;
+}
+
+.welcome h1{
+    font-size: 7em;
+}
+
+.welcome h3{
+    font-size: 2em;
+    margin-left: 10px;
+}
+
+.welcome h6{
+    margin-left: 10px;
+}
+
+.btn{
+    margin-top: 30px;
+    margin-left: 10px;
+    width: 130px;
+    height: 50px;
+    /* background: transparent; */
+    border: 2px solid white;
+    border-radius: 7px;
+    outline: none;
+    cursor: pointer;
+    font-size: 1.2em;
+    font-weight: 500;
+    /* margin-left: 20px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.btn:hover{
+    background: transparent;
+    color: white;
+}
+
+.Portion_content ion-icon{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
