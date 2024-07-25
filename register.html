@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
 
     <!-- CSS -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="register_style.css">
 </head>
 <body>
     <!-- <header class="Heading">
@@ -20,9 +20,17 @@
 
     <div class="Entire">
         <form>
-            <h3 class="login">LOGIN</h3>
+            <h3 class="login">SIGN UP</h3>
             <div class="Portion">
                 
+                <div class="Portion_content">
+                    <!-- NAME -->
+                    <input type="text" placeholder="Name"> <!--DOUBT: How to do 'THIS FIELD IS MANDATORY'-->
+                    <!-- <span class="emoji_icon"> -->
+                        <ion-icon name="person-circle-outline"></ion-icon>
+                    <!-- </span> -->
+                </div>
+
                 <div class="Portion_content">
                     <!-- USERNAME -->
                     <input type="text" placeholder="Username"> <!--DOUBT: How to do 'THIS FIELD IS MANDATORY'-->
@@ -46,7 +54,7 @@
                 <button type="submit" class="Button">SUBMIT</button>
 
                 <div class="register">
-                    <p>No Account? <a href="/register.html" class="register_url">Register</a></p>
+                    <p>Have an Account? <a href="/index.html" class="register_url">Login</a></p>
                 </div>
             </div>
         </form>
